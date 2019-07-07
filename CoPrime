@@ -1,0 +1,42 @@
+/*
+File Name: CoPrime
+Objective: In this problem, you are provided with an integer- n. Your task is to determine the largest integer, a, 
+where a is less than (n-1) but is a coprime of n. This just implies that the gcd(a,n) is equal to 1.
+
+Name: Pranav Chati
+Date: 07/07/2019
+Language: C++14(g++ 5.4.0)
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  int n;
+  cin >> n; // get n
+  int a = n - 1;
+  int i = 0;
+  
+  if (n>=3 && n <= 1000) {
+      for(i = 1; i < f; ++i)
+        {
+            if (n%2 == 0) //tests whether n is even or odd
+            {
+                if(a % i == 0)
+               {
+                   cout << i;//outputs largest  integer comprime with n when n is even
+               }
+            }
+            else {
+                if(a % i == 1)
+                {
+                   cout << i; //outputs largest  integer comprime with n when n is odd
+                }
+            }
+            
+        }
+  }
+   
+   return 0; 
+}
